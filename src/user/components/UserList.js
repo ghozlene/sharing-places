@@ -1,5 +1,5 @@
 import React from 'react';
-import './userList.css';
+import './UserList.css';
 
 import UserItem from './UserItem';
 
@@ -12,7 +12,7 @@ const UserList = ({ items }) => {
 		);
 	}
 	return (
-		<ul>
+		<ul className='users-list'>
 			{items.map((user) => (
 				<UserItem
 					key={user.id}
