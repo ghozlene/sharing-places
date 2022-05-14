@@ -15,7 +15,7 @@ function App() {
 			<main>
 				<Routes>
 					<Route path='/' exact element={<Users />}></Route>
-					<Route path='/place/new' element={<NewPlace />} />
+					<Route path='/places/new' element={<NewPlace />} />
 					<Route path='*' element={<Navigate to='/' replace />} />
 				</Routes>
 			</main>
